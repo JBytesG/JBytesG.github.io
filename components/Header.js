@@ -17,7 +17,7 @@ class Header extends HTMLElement {
                     <div class="dropdown">
                         <a href="../reflections">Reflections</a>
                         <div class="dropdown_content">
-                            <a href="../highSchoolReflection.html">High School</a>
+                            <a href="../reflections/high-school-reflection.html">High School</a>
                         </div>
                     </div>
                 </li>
