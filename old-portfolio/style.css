@@ -1,0 +1,202 @@
+/* color scheme is F3E8EE BACDB0 729B79 475B63 2E2C2F*/
+body{
+    margin: 0;
+    padding: 0;
+    color: #2E2C2F;
+    background-color: #F3E8EE;
+}
+
+header{
+    background-color: #BACDB0;
+}
+
+h1{
+    padding: 5px;
+    font-size: 40px;
+    margin: 0;
+}
+
+/* nav css */
+
+nav{
+    text-decoration: none;
+    text-align: center;
+    background-color: #475b63;
+    padding: 0.5%;
+    font-size: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+nav a:link{
+    color: #F3E8EE;
+}
+
+nav a:visited{
+    color: #F3E8EE;
+}
+
+nav a:hover{
+    color: #F3E8EE;
+}
+
+nav a:active{
+    color: #F3E8EE;
+}
+
+main{
+    margin: 0 auto;
+    padding: 10px 10px 45px;
+    max-width: 1000px;
+    background-color: #F3E8EE;
+}
+
+.title{
+    text-align: center;
+}
+
+/* image css */
+
+#homehero{
+    max-width: 100%;
+    display: block;
+}
+
+/* text css */
+
+#aboutme{
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+p{
+    font-size: 18px;
+}
+
+ul{
+    font-size: 18px;
+    overflow: hidden;
+}
+
+/* table css */
+
+table{
+    background-color: #000000;
+    text-align: center;
+}
+
+th{
+    background-color: #729B79;
+    line-height: 2;
+    padding: 10px;
+}
+
+td{
+    background-color: #BACDB0;
+    padding: 10px 10px 5px;
+}
+
+table img{
+    width: 100%;
+    height: auto;
+}
+
+/* form css */
+
+form{
+    margin: 0 auto;
+    max-width: 350px;
+    border: solid 1px #000000;
+    padding: 3em 1em 2em;
+    background-color: #BACDB0;
+}
+
+lable{
+    padding-right: 10px;
+    float: left;
+    width: 8em;
+}
+
+input, textarea{
+    margin-bottom: 1em;
+}
+
+/* game css */
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    max-width: 50%;
+    background-image: url(images/water.jpg);
+}
+
+#basegame{
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.game-controls{
+    display: block;
+    text-align: center;
+}
+
+.myButton{
+    padding: 5px 10px;
+    margin: 5px 20px;
+}
+
+/* footer css */
+
+footer{
+    float: inline-end;
+    text-align: center;
+    background-color: #BACDB0;
+    padding: 4%;
+}
+
+footer a{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+footer a:link{
+    color: #475b63;
+}
+
+footer a:visited{
+    color: #475b63;
+}
+
+footer a:hover{
+    color: #475b63;
+    text-decoration: none;
+}
+
+footer a:active{
+    color: #475b63;
+}
+
+.fa{
+    font-size: 200px;
+}
+
+/* Tablets
+@media only screen and (max-width: 1024px){
+    h1{
+        font-size: 2em;
+    }
+}
+
+Phones 
+@media only screen and (max-width: 786px){
+    h1{
+        font-size: 1.5em;
+    }
+} */

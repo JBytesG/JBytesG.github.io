@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <title>Joe's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="images/logo.png" height="205" width="402">
+        </header>
+
+        <nav>
+            <h3>
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a href="table.html">Table</a>
+                <a href="form.html">Form</a>
+                <a href="multimedia.html">Multimedia</a>
+                <a href="flappy.html">JavaScript</a>
+            </h3>
+        </nav>
+
+        <main>
+            <h1 class="title">
+                Form
+            </h1>
+
+            <form method="post" action="https://webdevstudents.com/portfolio/submit-form.php">
+                <lable for="first_name">*First Name</lable>
+                <input type="text" id="first_name" name="first_name" required>
+                <br>
+                <lable for="last_name">*Last Name</lable>
+                <input type="text" id="last_name" name="last_name" required>
+                <br>
+                <lable for="email">*Email</lable>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <lable for="phone">Phone</lable>
+                <input type="tel" id="phone" name="phone">
+                <br>
+                <lable for="comments">*Your Report</lable>
+                <textarea id="comments" name="comments"></textarea>
+                <br>
+                <input type="submit" id="submit" name="submit" required>
+            </form>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="https://github.com/JBytesG">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                            <br>
+                            My GitHub
+                        </a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="mailto:joebgorton@gmail.com">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <br>
+                            Email Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <small>
+                &copy; 2021 Joe Gorton all rights reserved
+            </small>
+        </footer>
+
+        <!--jQuery, Popper, and Bootstrap Javascript files-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    </body>
+</html>
