@@ -31,6 +31,7 @@ class Header extends HTMLElement {
                 </li>
                 <li><a href="../artifacts">Artifacts</a></li>
                 <li><a href="../letters">Letters of Recomendation</a></li>
+                <li><a href="../images">Pictures</a></li>
             </ul>
         </nav>
         `;
