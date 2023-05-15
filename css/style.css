@@ -8,7 +8,7 @@ body {
 /* HEADER #################################################### */
 
 header {
-    background-color: purple;
+    background-color: violet;
     display: block;
     margin: 0;
     padding: 20px;
@@ -24,7 +24,7 @@ nav {
     display: block;
     padding: 0;
     width: 100%;
-    background-color: pink;
+    background-color: lightpink;
 }
 
 nav ul {
@@ -79,11 +79,14 @@ nav a {
 main {
     padding: 20px;
     margin: 0;
+    min-height: 700px;
+    background-color: whitesmoke;
 }
 
 h2 {
     padding: 0;
     margin: 0;
+    padding-bottom: 20px;
 }
 
 p {
@@ -96,8 +99,9 @@ p {
 }
 
 img {
-    width: 400px;
-    padding: 20px;
+    width: 40%;
+    padding: 20px 30%;
+    display: block;
 }
 
 /* FOOTER #################################################### */
