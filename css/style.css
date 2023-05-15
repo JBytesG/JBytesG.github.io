@@ -95,6 +95,11 @@ p {
     font-size: large;
 }
 
+img {
+    width: 400px;
+    padding: 20px;
+}
+
 /* FOOTER #################################################### */
 
 footer {
@@ -125,4 +130,31 @@ footer a {
         display: block;
         padding: 10px;
     }
+
+    nav a {
+        font-size: 25px;
+    }
+
+    .dropdown_content a {
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 25px;
+        background-color: white;
+    }
+
+    .dropdown_content {
+        display: none;
+        position: absolute;
+        width: auto;
+        overflow: auto;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .3);
+    }
+
+    img {
+        width: 80%;
+        padding: 20px 10%;
+    }
+
   }
