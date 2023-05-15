@@ -129,7 +129,7 @@ footer a {
     color: black;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     nav li{
         display: block;
         padding: 10px;
